@@ -1,0 +1,5 @@
+Flask==2.3.2
+Flask-MongoEngine==1.0.0
+dnspython==2.3.0
+pymongo
+Flask-CORS==4.0.0

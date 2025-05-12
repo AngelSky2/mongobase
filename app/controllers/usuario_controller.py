@@ -9,7 +9,7 @@ def crear():
     return jsonify({"mensaje":"usuario creado"}),201
 
 def listar():
-    usuarios = list(mongo.db.usuario.find())
+    usuarios = list(mongo.db.usuarios.find())
     for u in usuarios:
         u["_id"]=str(u["_id"])
     return jsonify(usuarios)
