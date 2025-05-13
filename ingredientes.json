@@ -1,0 +1,162 @@
+[
+    {
+        "_id": "6822a8b6f47ca215d608eba3",
+        "nombre": "carne de res",
+        "tipo": "carne",
+        "descripcion": "Carne roja comúnmente usada en guisos y sopas.",
+        "costo_por_unidad": 35,
+        "unidad": "kg"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba4",
+        "nombre": "cebolla",
+        "tipo": "vegetal",
+        "descripcion": "Bulbo comestible que se usa como base aromática.",
+        "costo_por_unidad": 3,
+        "unidad": "unidad"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba5",
+        "nombre": "ajo",
+        "tipo": "vegetal",
+        "descripcion": "Ingrediente aromático y medicinal, usado en pequeñas cantidades.",
+        "costo_por_unidad": 0.5,
+        "unidad": "diente"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba6",
+        "nombre": "zanahoria",
+        "tipo": "vegetal",
+        "descripcion": "Raíz comestible de sabor dulce, rica en betacarotenos.",
+        "costo_por_unidad": 2,
+        "unidad": "unidad"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba7",
+        "nombre": "papa",
+        "tipo": "vegetal",
+        "descripcion": "Tubérculo rico en almidón, base de muchos platos.",
+        "costo_por_unidad": 1.5,
+        "unidad": "unidad"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba8",
+        "nombre": "arvejas",
+        "tipo": "vegetal",
+        "descripcion": "Legumbre verde, rica en proteínas y fibra.",
+        "costo_por_unidad": 4,
+        "unidad": "100g"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608eba9",
+        "nombre": "comino",
+        "tipo": "condimento",
+        "descripcion": "Especia aromática de sabor fuerte, común en la cocina boliviana.",
+        "costo_por_unidad": 0.3,
+        "unidad": "cucharadita"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebaa",
+        "nombre": "sal",
+        "tipo": "condimento",
+        "descripcion": "Mineral utilizado como potenciador de sabor.",
+        "costo_por_unidad": 0.1,
+        "unidad": "cucharadita"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebab",
+        "nombre": "pimienta",
+        "tipo": "condimento",
+        "descripcion": "Especia picante y aromática, usada para sazonar.",
+        "costo_por_unidad": 0.2,
+        "unidad": "cucharadita"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebac",
+        "nombre": "aceite",
+        "tipo": "grasa",
+        "descripcion": "Grasa líquida usada para freír o cocinar.",
+        "costo_por_unidad": 1,
+        "unidad": "cucharada"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebad",
+        "nombre": "ají amarillo",
+        "tipo": "condimento",
+        "descripcion": "Ají tradicional boliviano de sabor medio y color brillante.",
+        "costo_por_unidad": 1.5,
+        "unidad": "unidad"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebae",
+        "nombre": "leche",
+        "tipo": "lácteo",
+        "descripcion": "Líquido blanco rico en calcio, usado en salsas y masas.",
+        "costo_por_unidad": 0.8,
+        "unidad": "100ml"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebaf",
+        "nombre": "huevo",
+        "tipo": "proteína",
+        "descripcion": "Fuente de proteína animal, se usa cocido o batido.",
+        "costo_por_unidad": 1.2,
+        "unidad": "unidad"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb0",
+        "nombre": "queso",
+        "tipo": "lácteo",
+        "descripcion": "Derivado lácteo fermentado, usado en rellenos o gratinados.",
+        "costo_por_unidad": 5,
+        "unidad": "100g"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb1",
+        "nombre": "harina de trigo",
+        "tipo": "cereal",
+        "descripcion": "Polvo fino usado para masas, frituras y rebozados.",
+        "costo_por_unidad": 0.5,
+        "unidad": "100g"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb2",
+        "nombre": "maní",
+        "tipo": "semilla",
+        "descripcion": "Semilla oleaginosa molida usada en salsas tradicionales.",
+        "costo_por_unidad": 3,
+        "unidad": "100g"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb3",
+        "nombre": "ají colorado",
+        "tipo": "condimento",
+        "descripcion": "Ají seco y molido que aporta color y sabor picante.",
+        "costo_por_unidad": 1,
+        "unidad": "cucharada"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb4",
+        "nombre": "orégano",
+        "tipo": "hierba",
+        "descripcion": "Hierba seca aromática común en sopas y guisos.",
+        "costo_por_unidad": 0.3,
+        "unidad": "cucharadita"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb5",
+        "nombre": "arroz",
+        "tipo": "cereal",
+        "descripcion": "Cereal básico, fuente de energía.",
+        "costo_por_unidad": 0.4,
+        "unidad": "100g"
+    },
+    {
+        "_id": "6822a8b6f47ca215d608ebb6",
+        "nombre": "agua",
+        "tipo": "líquido",
+        "descripcion": "Líquido esencial para cocción de alimentos.",
+        "costo_por_unidad": 0,
+        "unidad": "ml"
+    }
+]

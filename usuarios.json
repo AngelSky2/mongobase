@@ -1,0 +1,79 @@
+[
+    {
+        "_id": "6821ecb2295137527e6be341",
+        "nombre": "Juan",
+        "email": "juan@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831b6",
+        "nombre": "Carlos Mendoza",
+        "email": "carlos.mendoza@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831b7",
+        "nombre": "Valeria Ríos",
+        "email": "valeria.rios@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831b8",
+        "nombre": "Eduardo Gutiérrez",
+        "email": "eduardo.gutierrez@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831b9",
+        "nombre": "Sofía Vargas",
+        "email": "sofia.vargas@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831ba",
+        "nombre": "Daniela Quiroga",
+        "email": "daniela.quiroga@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831bb",
+        "nombre": "Jorge Arce",
+        "email": "jorge.arce@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831bc",
+        "nombre": "Lucía Fernández",
+        "email": "lucia.fernandez@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831bd",
+        "nombre": "Marco Salinas",
+        "email": "marco.salinas@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831be",
+        "nombre": "Natalia Suárez",
+        "email": "natalia.suarez@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    },
+    {
+        "_id": "6822b5c536aab103727831bf",
+        "nombre": "Andrés López",
+        "email": "andres.lopez@example.com",
+        "recetas_creadas": [],
+        "recetas_favoritas": []
+    }
+]

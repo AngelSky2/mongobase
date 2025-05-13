@@ -1,0 +1,225 @@
+[
+    {
+        "_id": "6822b1410877a79f496d174a",
+        "nombre": "Sopa de Quinua",
+        "tipo_comida": "sopa",
+        "dificultad": "fácil",
+        "region_origen": "Oruro",
+        "foto": "http://ejemplo.com/sopa_quinua.jpg",
+        "notas": "Servir con perejil picado.",
+        "tiempo_preparacion": 40,
+        "porciones": 4,
+        "etiquetas": [
+            "quinua",
+            "vegetariano"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608ebb5",
+            "6822a8b6f47ca215d608ebb6",
+            "6822a8b6f47ca215d608eba7"
+        ],
+        "pasos": [
+            "Lavar y cocer la quinua.",
+            "Freír cebolla, ajo y zanahoria.",
+            "Agregar agua y quinua cocida.",
+            "Hervir todo y servir con perejil."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd145c",
+        "nombre": "Sajta de Pollo",
+        "tipo_comida": "plato principal",
+        "dificultad": "media",
+        "region_origen": "La Paz",
+        "foto": "http://ejemplo.com/sajta_pollo.jpg",
+        "notas": "Servir con arroz y papa.",
+        "tiempo_preparacion": 60,
+        "porciones": 4,
+        "etiquetas": [
+            "pollo",
+            "picante",
+            "tradicional"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608ebaf",
+            "6822a8b6f47ca215d608ebb3",
+            "6822a8b6f47ca215d608ebb4",
+            "6822a8b6f47ca215d608ebaa",
+            "6822a8b6f47ca215d608ebab",
+            "6822a8b6f47ca215d608ebac",
+            "6822a8b6f47ca215d608eba4",
+            "6822a8b6f47ca215d608eba5",
+            "6822a8b6f47ca215d608eba7"
+        ],
+        "pasos": [
+            "Hervir el pollo con sal y reservar.",
+            "Freír la cebolla y el ajo picado.",
+            "Agregar ají colorado, orégano, sal y pimienta.",
+            "Incorporar el pollo hervido a la salsa.",
+            "Servir con arroz, papa y huevo cocido partido en dos."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd145d",
+        "nombre": "Falso Conejo",
+        "tipo_comida": "plato principal",
+        "dificultad": "media",
+        "region_origen": "Cochabamba",
+        "foto": "http://ejemplo.com/falso_conejo.jpg",
+        "notas": "",
+        "tiempo_preparacion": 70,
+        "porciones": 4,
+        "etiquetas": [
+            "carne",
+            "tradicional",
+            "maní"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608eba3",
+            "6822a8b6f47ca215d608ebb2",
+            "6822a8b6f47ca215d608ebb1",
+            "6822a8b6f47ca215d608eba4",
+            "6822a8b6f47ca215d608eba5",
+            "6822a8b6f47ca215d608ebac",
+            "6822a8b6f47ca215d608ebab",
+            "6822a8b6f47ca215d608ebaa"
+        ],
+        "pasos": [
+            "Aplastar la carne y rebozar con harina.",
+            "Freír la carne rebozada y reservar.",
+            "Preparar la salsa con cebolla, ajo, ají y maní molido.",
+            "Añadir la carne a la salsa y dejar cocer.",
+            "Servir con arroz blanco y papa cocida."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd145e",
+        "nombre": "Picante de Pollo",
+        "tipo_comida": "plato principal",
+        "dificultad": "media",
+        "region_origen": "Oruro",
+        "foto": "http://ejemplo.com/picante_pollo.jpg",
+        "notas": "Puede usarse ají amarillo o colorado.",
+        "tiempo_preparacion": 55,
+        "porciones": 4,
+        "etiquetas": [
+            "picante",
+            "tradicional"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608ebb3",
+            "6822a8b6f47ca215d608ebaa",
+            "6822a8b6f47ca215d608ebab",
+            "6822a8b6f47ca215d608eba4",
+            "6822a8b6f47ca215d608eba5",
+            "6822a8b6f47ca215d608ebac",
+            "6822a8b6f47ca215d608ebb2",
+            "6822a8b6f47ca215d608ebb4"
+        ],
+        "pasos": [
+            "Freír cebolla y ajo con aceite.",
+            "Agregar ají colorado y maní molido.",
+            "Añadir sal, pimienta y orégano.",
+            "Cocer el pollo dentro de la salsa.",
+            "Servir con papa, arroz y huevo."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd145f",
+        "nombre": "Sopa de Maní",
+        "tipo_comida": "sopa",
+        "dificultad": "media",
+        "region_origen": "Cochabamba",
+        "foto": "http://ejemplo.com/sopa_mani.jpg",
+        "notas": "",
+        "tiempo_preparacion": 50,
+        "porciones": 5,
+        "etiquetas": [
+            "sopa",
+            "maní",
+            "vegetales"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608ebb2",
+            "6822a8b6f47ca215d608eba4",
+            "6822a8b6f47ca215d608eba5",
+            "6822a8b6f47ca215d608eba6",
+            "6822a8b6f47ca215d608eba7",
+            "6822a8b6f47ca215d608eba8",
+            "6822a8b6f47ca215d608ebb6",
+            "6822a8b6f47ca215d608ebb0"
+        ],
+        "pasos": [
+            "Freír cebolla y ajo.",
+            "Agregar el maní molido con agua y hervir.",
+            "Añadir zanahoria, papa, arvejas.",
+            "Servir con arroz blanco y queso rallado encima."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd1460",
+        "nombre": "Arroz con Queso",
+        "tipo_comida": "guarnición",
+        "dificultad": "fácil",
+        "region_origen": "Santa Cruz",
+        "foto": "http://ejemplo.com/arroz_queso.jpg",
+        "notas": "",
+        "tiempo_preparacion": 30,
+        "porciones": 3,
+        "etiquetas": [
+            "arroz",
+            "queso",
+            "rápido"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608ebb5",
+            "6822a8b6f47ca215d608ebb0",
+            "6822a8b6f47ca215d608ebb6",
+            "6822a8b6f47ca215d608ebaa"
+        ],
+        "pasos": [
+            "Hervir el arroz con agua y sal.",
+            "Al final de la cocción, agregar el queso rallado.",
+            "Mezclar y dejar que el queso se derrita.",
+            "Servir caliente."
+        ],
+        "comentarios": []
+    },
+    {
+        "_id": "6822b3ff057d68bb81fd1461",
+        "nombre": "Chairo Paceño",
+        "tipo_comida": "sopa",
+        "dificultad": "alta",
+        "region_origen": "La Paz",
+        "foto": "http://ejemplo.com/chairo.jpg",
+        "notas": "",
+        "tiempo_preparacion": 90,
+        "porciones": 6,
+        "etiquetas": [
+            "sopa",
+            "chuño",
+            "tradicional"
+        ],
+        "ingredientes_ids": [
+            "6822a8b6f47ca215d608eba3",
+            "6822a8b6f47ca215d608eba6",
+            "6822a8b6f47ca215d608eba7",
+            "6822a8b6f47ca215d608eba4",
+            "6822a8b6f47ca215d608eba5",
+            "6822a8b6f47ca215d608ebaa",
+            "6822a8b6f47ca215d608ebb6"
+        ],
+        "pasos": [
+            "Hervir la carne hasta ablandar.",
+            "Agregar cebolla, ajo, zanahoria, papa.",
+            "Incorporar chuño y cocinar hasta espesar.",
+            "Rectificar sal. Servir caliente con hierbas."
+        ],
+        "comentarios": []
+    }
+]
