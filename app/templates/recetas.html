@@ -1,0 +1,24 @@
+<!-- templates/recetas.html -->
+{% extends "layout.html" %}
+{% block title %}Recetas{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Recetas Disponibles</h2>
+
+<div class="row">
+    {% for receta in recetas %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+           
+            <div class="card-body">
+                <h5 class="card-title">{{ receta.nombre }}</h5>
+                <p class="card-text">{{ receta.region_origen }} | {{ receta.dificultad }}</p>
+                <p><strong>Tiempo:</strong> {{ receta.tiempo_preparacion }} min</p>
+                <p><strong>Etiquetas:</strong> {{ receta.etiquetas|join(', ') }}</p>
+                <a href="{{ url_for('views.ver_receta', id=receta._id) }}" class="btn btn-sm btn-primary mt-2">Ver receta completa</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
