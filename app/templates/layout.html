@@ -81,8 +81,6 @@
             box-shadow: 0 0 15px #00fff7;
             color: #00fff7;
         }
-
-        /* Scrollbar custom */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -95,6 +93,30 @@
         }
         ::-webkit-scrollbar-thumb:hover {
             background: #00fff7;
+        }
+        .card {
+            background: linear-gradient(135deg, #1a0033 60%, #ff00c8 100%);
+            border: 2px solid #00fff7;
+            box-shadow: 0 0 20px #ff00c8, 0 0 40px #00fff7 inset;
+        }
+
+        .card-body {
+            background: rgba(18, 18, 36, 0.95);
+            color: #00fff7;
+            text-shadow: 0 0 6px #00fff7, 0 0 2px #ff00c8;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .card-title {
+            color: #39ff14; /* Verde fosforescente */
+            text-shadow: 0 0 8px #39ff14, 0 0 2px #00fff7;
+            font-weight: bold;
+        }
+
+        /* Si quieres que solo el título sea verde, elimina .card-title de la siguiente línea */
+        .card-text, .card-body p, .card-body strong {
+            color: #ff00c8;
+            text-shadow: 0 0 4px #00fff7;
         }
     </style>
 </head>

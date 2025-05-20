@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for
 from bson import ObjectId
+from bson.errors import InvalidId
 from app import mongo
 
 views_bp = Blueprint('views', __name__)
@@ -21,22 +22,27 @@ def lista_usuarios():
 
 @views_bp.route('/receta/<id>', methods=['GET', 'POST'])
 def ver_receta(id):
-    receta = mongo.db.recetas.find_one({"_id": ObjectId(id)})
+    try:
+        receta = mongo.db.recetas.find_one({"_id": ObjectId(id)})
+    except InvalidId:
+        return "ID de receta inválido", 400
+
     if not receta:
         return "Receta no encontrada", 404
 
-    # Obtener nombres de ingredientes
-    ingredientes = []
     ingredientes = []
     for ing_id in receta.get("ingredientes_ids", []):
         ing = mongo.db.ingredientes.find_one({"_id": ObjectId(ing_id)})
         if ing:
             ingredientes.append({"nombre": ing.get("nombre", "Desconocido")})
-            
+
     # Agregar comentario
     if request.method == 'POST':
-        nombre_usuario = request.form.get('nombre')
-        comentario_texto = request.form.get('comentario')
+        nombre_usuario = request.form.get('nombre', '').strip()
+        comentario_texto = request.form.get('comentario', '').strip()
+
+        if not nombre_usuario or not comentario_texto:
+            return "Nombre y comentario son obligatorios", 400
 
         nuevo_comentario = {
             "usuario": nombre_usuario,
