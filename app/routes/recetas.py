@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify
-from app.controllers.recetas_controller import crear_receta, listar_recetas
-from app import mongo
 from app.controllers.recetas_controller import crear_receta, crear_recetas_multiples, listar_recetas
+from app import mongo
 
 recetas_bp = Blueprint('recetas', __name__, url_prefix='/recetas')
 
@@ -26,13 +25,9 @@ def crear_multiples_recetas():
         data = request.get_json(force=True)
         if not isinstance(data, list):
             return jsonify({"error": "Se esperaba una lista de recetas"}), 400
-
-        # Validar que cada receta en la lista sea un diccionario con la estructura correcta
         for receta in data:
             if not isinstance(receta, dict):
                 return jsonify({"error": "Cada receta debe ser un diccionario"}), 400
-            # Podrías agregar más validaciones para asegurarte de que los datos sean correctos
-
         ids_creados = crear_recetas_multiples(mongo, data)
         return jsonify({"mensaje": "Recetas creadas", "ids": ids_creados}), 201
     except Exception as e:

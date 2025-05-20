@@ -2,6 +2,7 @@ from flask import request, jsonify
 from bson import ObjectId
 from app.models.receta import crear_receta_dict
 
+# Crea una receta individual en la base de datos
 def crear_receta(mongo, datos):
     # Si los ingredientes vienen como strings, conviértelos a ObjectId
     if "ingredientes_ids" in datos:
@@ -12,6 +13,7 @@ def crear_receta(mongo, datos):
     resultado = mongo.db.recetas.insert_one(receta)
     return str(resultado.inserted_id)
 
+# Lista todas las recetas de la base de datos y las devuelve como JSON
 def listar_recetas(mongo):
     recetas = mongo.db.recetas.find()
     lista = []
@@ -24,6 +26,7 @@ def listar_recetas(mongo):
         lista.append(receta)
     return jsonify(lista)
 
+# Crea múltiples recetas en la base de datos a partir de una lista de datos
 def crear_recetas_multiples(mongo, lista_datos):
     recetas_formateadas = []
     for datos in lista_datos:
