@@ -1,34 +1,18 @@
 from flask import request, jsonify
 from bson import ObjectId
+from app.models.ingrediente import crear_ingrediente_dict
 
 # Función para crear uno o varios ingredientes
 def crear_ingredientes(mongo):
     datos = request.get_json()
 
     if isinstance(datos, dict):
-        # Insertar un solo ingrediente
-        ingrediente = {
-            "nombre": datos.get("nombre"),
-            "tipo": datos.get("tipo"),
-            "descripcion": datos.get("descripcion"),
-            "costo_por_unidad": datos.get("costo_por_unidad"),
-            "unidad": datos.get("unidad")
-        }
+        ingrediente = crear_ingrediente_dict(datos)
         resultado = mongo.db.ingredientes.insert_one(ingrediente)
         return jsonify({"mensaje": "Ingrediente creado", "id": str(resultado.inserted_id)}), 201
 
     elif isinstance(datos, list):
-        # Insertar múltiples ingredientes
-        ingredientes = []
-        for item in datos:
-            ingrediente = {
-                "nombre": item.get("nombre"),
-                "tipo": item.get("tipo"),
-                "descripcion": item.get("descripcion"),
-                "costo_por_unidad": item.get("costo_por_unidad"),
-                "unidad": item.get("unidad")
-            }
-            ingredientes.append(ingrediente)
+        ingredientes = [crear_ingrediente_dict(item) for item in datos]
         resultado = mongo.db.ingredientes.insert_many(ingredientes)
         return jsonify({
             "mensaje": "Ingredientes creados",

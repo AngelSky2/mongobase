@@ -1,7 +1,8 @@
-def crear_usuario(nombre, email):
-    return{
-        "nombre": nombre ,
-        "email": email ,
-        "recetas_creadas": [] ,
-        "recetas_favoritas": [] 
+def crear_usuario_dict(datos):
+    return {
+        "nombre": datos.get("nombre"),
+        "email": datos.get("email"),
+        "recetas_creadas": [],
+        "recetas_favoritas": []
     }
+

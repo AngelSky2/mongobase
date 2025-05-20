@@ -1,11 +1,11 @@
 from flask import request, jsonify
 from app import mongo
-from app.models.usuario import crear_usuario
+from app.models.usuario import crear_usuario_dict
 
 # Crear un solo usuario
 def crear():
     data = request.json
-    usuario = crear_usuario(data['nombre'], data['email'])
+    usuario = crear_usuario_dict(data)
     mongo.db.usuarios.insert_one(usuario)
     return jsonify({"mensaje": "Usuario creado"}), 201
 
@@ -15,7 +15,7 @@ def crear_multiples():
     usuarios_creados = []
 
     for data in lista_datos:
-        usuario = crear_usuario(data['nombre'], data['email'])
+        usuario = crear_usuario_dict(data)
         usuarios_creados.append(usuario)
 
     resultado = mongo.db.usuarios.insert_many(usuarios_creados)

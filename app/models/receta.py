@@ -1,5 +1,5 @@
-def crear_receta(mongo, datos):
-    receta = {
+def crear_receta_dict(datos):
+    return {
         "nombre": datos.get("nombre"),
         "tipo_comida": datos.get("tipo_comida"),
         "dificultad": datos.get("dificultad"),
@@ -13,5 +13,4 @@ def crear_receta(mongo, datos):
         "pasos": datos.get("pasos"),
         "comentarios": datos.get("comentarios", [])
     }
-    resultado = mongo.db.recetas.insert_one(receta)
-    return str(resultado.inserted_id)
+
