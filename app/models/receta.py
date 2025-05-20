@@ -9,7 +9,7 @@ def crear_receta_dict(datos):
         "tiempo_preparacion": datos.get("tiempo_preparacion"),
         "porciones": datos.get("porciones"),
         "etiquetas": datos.get("etiquetas"),
-        "ingredientes_ids": datos.get("ingredientes_ids"),  # deben venir como lista de IDs
+        "ingredientes_ids": datos.get("ingredientes_ids"),  
         "pasos": datos.get("pasos"),
         "comentarios": datos.get("comentarios", [])
     }
