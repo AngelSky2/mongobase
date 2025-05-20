@@ -206,6 +206,6 @@ mongobase/
 
 ## 📢 Créditos
 
-Desarrollado por [Tu Nombre o Equipo].
+Desarrollado por Angelsky.
 
 ---
